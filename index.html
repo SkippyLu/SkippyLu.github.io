@@ -2,16 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Happy Birthday!</title>
     <link rel="stylesheet" href="leapday.css">
-  
+    <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("module/spotify.html"); 
+    });
+    </script> 
 </head>
 <body>
     <div class="birthday">
         <h1>Happy Birthday!</h1>
-        <!-- Spotify playlist which eventually goes into the party room - Asked Jordan to make playlist on 3/23 - TBD -->
-        <iframe src="https://open.spotify.com/embed/playlist/ACTUAL_PLAYLIST_ID" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <!-- Spotify playlist which eventually goes into the party room - Asked Jordan to make playlist on 3/23 - TBD
+        <iframe src="https://open.spotify.com/embed/playlist/ACTUAL_PLAYLIST_ID" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> -->
 
     </div>
 </body>
