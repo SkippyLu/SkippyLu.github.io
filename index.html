@@ -5,30 +5,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Happy Birthday!</title>
-    <style>
-      body {
-    background-image: url('Sunflower.png');
-    background-repeat: repeat;
-    background-size: 200px;
-        }
-         .box {
-          background-color: lightgray;
-          color: white;
-          text-align: center;
-          padding: 10px;
-          margin: 0 auto 10px; /* Center the box horizontally */
-          width: 80%; /* Set the width of the box */
-          border-radius: 12px; /* Add rounded corners */
-      }
-      .box:first-child {
-          font-size: 24px; /* Larger font size for the first line */
-      }
-      .box:last-child {
-          font-size: 20px; /* Smaller font size for the second line */
-      }
-    </style>
-    <!-- <link rel="stylesheet" href="leapday.css"> -->
-    <!-- <script src="jquery.js"></script>  -->
+    <link rel="stylesheet" href="leapday.css">
     <script> 
     $(function(){
       $("#includedContent").load("module/spotify.html"); 
@@ -37,9 +14,8 @@
 </head>
 <body>
     <div class="birthday">
-        <h1>Happy Birthday from your Family and Friends!</h1>
-        <!-- <iframe src="https://open.spotify.com/embed/playlist/ACTUAL_PLAYLIST_ID" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> -->
-        <p>Click <a href="https://SkippyLu.github.io/compliments.html">here</a> to See Courtenay's Birthday Well Wishes!</p>
+        <div class="box">Happy Birthday from your Friends and Family!</div>
+        <div class="box">Click <a href="https://SkippyLu.github.io/compliments.html">here</a> to See Courtenay's Birthday Well Wishes!</div>
     </div>
     <div id="includedContent"></div>
 </body>
