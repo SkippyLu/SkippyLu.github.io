@@ -13,7 +13,9 @@ body {
   font-weight:300;
   margin: 0px;
   padding:0px 0 20px 0px;
-  background: url(assets/images/body-background.png) #eae6d1;
+  background-image: url('Sunflower.png');
+  background-repeat: repeat;
+  background-size: 200px;
 }
 
 h1, h2, h3, h4, h5, h6 {
