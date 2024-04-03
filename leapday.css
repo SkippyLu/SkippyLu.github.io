@@ -1,3 +1,11 @@
+/* CSS HEX */
+--emerald #58bc82ff
+--amber #ffbf00ff
+--davys-gray #4d4847ff
+--seasalt #f7f7f7ff
+--blue-violet #9046cfff
+
+
 /* Reset some default styles */
 body, h1, h2, h3, p, ul, li {
   margin: 0;
@@ -13,6 +21,10 @@ body {
   background-image: url('Sunflower.png');
   background-repeat: repeat;
   background-size: 200px 200px; /* Adjusted background size */
+}
+
+.box {
+  background-color: var(--emerald);
 }
 
 h1, h2, h3 {
