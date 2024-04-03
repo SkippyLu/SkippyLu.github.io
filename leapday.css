@@ -8,7 +8,7 @@ body {
   font-family: 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 22px;
-  color: #2b2b2b;
+  color: var(--davys-gray);
   font-weight: 300;
   background-image: url('Sunflower.png');
   background-repeat: repeat;
@@ -21,11 +21,11 @@ h1, h2, h3 {
 
 h2 {
   font-size: 24px;
-  color: #393939;
+  color: var(--emerald);
 }
 
 a {
-  color: #4276b6;
+  color: var(--amber);
   text-decoration: none;
 }
 
@@ -42,9 +42,9 @@ a:hover {
 section {
   margin: 20px 0;
   padding: 30px;
-  background-color: #fbfbfb;
+  background-color: var(--seasalt);
   border-radius: 3px;
-  border: 1px solid #cbcbcb;
+  border: 1px solid var(--davys-gray);
 }
 
 blockquote {
@@ -62,9 +62,9 @@ blockquote {
 .box {
   margin-bottom: 20px;
   padding: 10px;
-  background-color: #f5f5f5; /* GitHub Wild Sand for the text box background */
-  color: #333; /* GitHub Mine Shaft for the text box text color */
-  border: 1px solid #fafafa; /* GitHub Alabaster for the border color */
+  background-color: var(--seasalt); /* GitHub Wild Sand for the text box background */
+  color: var(--davys-gray); /* GitHub Mine Shaft for the text box text color */
+  border: 1px solid var(--seasalt); /* GitHub Alabaster for the border color */
   border-radius: 3px;
 }
 
@@ -75,7 +75,7 @@ strong {
 
 small {
   font-size: 11px;
-  color: #666;
+  color: var(--davys-gray);
   margin-top: -0.6em;
   display: block;
 }
