@@ -59,7 +59,6 @@ blockquote {
 }
 
 /* Text boxes */
-/* Text boxes */
 .box {
   margin-bottom: 20px;
   padding: 10px;
@@ -81,3 +80,22 @@ small {
   display: block;
 }
 
+/* New styles for Compliment Shower */
+.quote {
+  margin-bottom: 20px;
+  padding-left: 30px;
+  position: relative;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.bullet {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px; /* Set the width of the bullet image */
+  height: 20px; /* Set the height of the bullet image */
+  background-image: url('malinois.png'); /* Path to the bullet image */
+  background-size: cover;
+  background-position: center;
+}
