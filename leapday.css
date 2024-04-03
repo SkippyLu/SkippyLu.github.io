@@ -1,10 +1,11 @@
 /* CSS HEX */
---emerald #58bc82ff
---amber #ffbf00ff
---davys-gray #4d4847ff
---seasalt #f7f7f7ff
---blue-violet #9046cfff
-
+:root {
+  --emerald: #58bc82ff;
+  --amber: #ffbf00ff;
+  --davys-gray: #4d4847ff;
+  --seasalt: #f7f7f7ff;
+  --blue-violet: #9046cfff;
+}
 
 /* Reset some default styles */
 body, h1, h2, h3, p, ul, li {
@@ -25,6 +26,7 @@ body {
 
 .box {
   background-color: var(--emerald);
+  opacity: 40%;
 }
 
 h1, h2, h3 {
