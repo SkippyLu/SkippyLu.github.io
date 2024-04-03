@@ -41,31 +41,27 @@ a:hover {
 
 section {
   margin: 20px 0;
-  padding: 30px;
-  background-color: var(--seasalt);
-  border-radius: 3px;
-  border: 1px solid var(--davys-gray);
 }
 
-blockquote {
-  margin: 0;
-  padding: 0 0 0 20px;
-  font-style: italic;
-}
-
-/* Spotify playlist */
-#includedContent {
-  max-width: 100%;
-}
-
-/* Text boxes */
-.box {
-  margin-bottom: 20px;
+.quote {
   padding: 10px;
-  background-color: var(--seasalt); /* GitHub Wild Sand for the text box background */
-  color: var(--davys-gray); /* GitHub Mine Shaft for the text box text color */
-  border: 1px solid var(--seasalt); /* GitHub Alabaster for the border color */
+  background-color: var(--seasalt);
+  color: var(--davys-gray);
+  border: 1px solid var(--davys-gray);
   border-radius: 3px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.bullet {
+  position: absolute;
+  left: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px; /* Set the width of the bullet image */
+  height: 20px; /* Set the height of the bullet image */
+  background-image: url('malinois.png'); /* Path to the bullet image */
+  background-size: cover;
 }
 
 /* Fonts and sizes */
@@ -78,24 +74,4 @@ small {
   color: var(--davys-gray);
   margin-top: -0.6em;
   display: block;
-}
-
-/* New styles for Compliment Shower */
-.quote {
-  margin-bottom: 20px;
-  padding-left: 30px;
-  position: relative;
-  font-size: 18px;
-  line-height: 1.5;
-}
-
-.bullet {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 20px; /* Set the width of the bullet image */
-  height: 20px; /* Set the height of the bullet image */
-  background-image: url('malinois.png'); /* Path to the bullet image */
-  background-size: cover;
-  background-position: center;
 }
