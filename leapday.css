@@ -78,7 +78,8 @@ section {
   width: 20px; /* Set the width of the bullet image */
   height: 20px; /* Set the height of the bullet image */
   background-image: url('malinois.png'); /* Path to the bullet image */
-  background-size: cover;
+  background-size: contain; /* Use 'contain' instead of 'cover' to ensure the entire image is visible */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
 }
 
 /* Fonts and sizes */
