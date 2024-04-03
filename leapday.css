@@ -26,7 +26,6 @@ body {
 
 .box {
   background-color: var(--emerald);
-  opacity: 40%;
 }
 
 h1, h2, h3 {
