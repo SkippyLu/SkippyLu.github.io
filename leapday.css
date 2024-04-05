@@ -71,10 +71,6 @@ section {
 }
 
 .bullet {
-  position: absolute;
-  left: -30px;
-  top: 50%;
-  transform: translateY(-50%);
   width: 20px; /* Set the width of the bullet image */
   height: 20px; /* Set the height of the bullet image */
   background-image: url('malinois.png'); /* Path to the bullet image */
