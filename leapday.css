@@ -76,6 +76,7 @@ section {
   background-image: url('malinois.png'); /* Path to the bullet image */
   background-size: contain; /* Use 'contain' instead of 'cover' to ensure the entire image is visible */
   background-repeat: no-repeat; /* Prevent the image from repeating */
+  display: inline-block; /* display bullet in line while setting the size */
 }
 
 /* Fonts and sizes */
