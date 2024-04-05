@@ -90,3 +90,7 @@ small {
   margin-top: -0.6em;
   display: block;
 }
+
+.comment {
+  display: inline-block; /* display bullet in line while setting the size */
+}
