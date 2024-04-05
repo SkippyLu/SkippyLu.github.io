@@ -92,5 +92,5 @@ small {
 }
 
 .comment {
-  display: inline-block; /* display bullet in line while setting the size */
+  display: inline; /* display bullet in line while setting the size */
 }
