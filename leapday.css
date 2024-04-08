@@ -8,8 +8,19 @@
 }
 
 /* Reset some default styles */
-body, h1, h2, h3, p, ul, li {
+
+h1 {
+  font-size: 28px; /* Twice as large as the body font size */
+}
+body, h2, h3, p, ul, li {
  text-align: center;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: var(--seasalt);
+  color: var(--davys-gray);
 }
 
 body {
