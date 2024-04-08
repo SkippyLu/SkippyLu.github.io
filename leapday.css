@@ -92,6 +92,13 @@ section {
   display: inline-block; /* display bullet in line while setting the size */
 }
 
+.wrapper {
+  max-width: 650px;
+  width: 66.66%; /* 2/3 of the page width */
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 /* Fonts and sizes */
 strong {
   font-weight: bold;
