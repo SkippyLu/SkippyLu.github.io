@@ -9,8 +9,7 @@
 
 /* Reset some default styles */
 body, h1, h2, h3, p, ul, li {
-  margin: 0;
-  padding: 0;
+ text-align: center;
 }
 
 body {
@@ -61,13 +60,15 @@ section {
 }
 
 .quote {
+text-align: left; /* Left-align text within the quote box */
+  display: inline-block; /* Make the quote box only as wide as its content */
+  margin: 20px auto; /* Center the quote box horizontally */
   padding: 10px;
   background-color: var(--seasalt);
   color: var(--davys-gray);
   border: 1px solid var(--davys-gray);
   border-radius: 3px;
   position: relative;
-  margin-bottom: 20px;
 }
 
 .bullet {
