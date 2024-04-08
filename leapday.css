@@ -8,19 +8,9 @@
 }
 
 /* Reset some default styles */
-
-h1 {
-  font-size: 28px; /* Twice as large as the body font size */
-}
-body, h2, h3, p, ul, li {
- text-align: center;
-}
-
-.header {
-  text-align: center;
-  padding: 20px;
-  background-color: var(--seasalt);
-  color: var(--davys-gray);
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -34,16 +24,37 @@ body {
   background-size: 200px 200px; /* Adjusted background size */
 }
 
+/* Center all text */
+body, h2, h3, p, ul, li {
+  text-align: center;
+}
+
+/* Styles for text boxes */
+.wrapper {
+  max-width: 650px;
+  width: 66.66%; /* 2/3 of the page width */
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 .box {
   background-color: var(--emerald);
+  width: 100%; /* Make the text boxes fill the width of the wrapper */
+  box-sizing: border-box; /* Include padding in the width calculation */
+  margin-bottom: 20px; /* Add some space between boxes */
 }
 
-.header-background {
-  background-color: var(--blue-violet);
-}
-
-h1, h2, h3 {
+/* Styles for the header */
+.header {
   text-align: center;
+  padding: 20px;
+  background-color: var(--seasalt);
+  color: var(--davys-gray);
+}
+
+/* Fonts and sizes */
+h1 {
+  font-size: 28px; /* Twice as large as the body font size */
 }
 
 h2 {
@@ -60,16 +71,7 @@ a:hover {
   text-decoration: underline;
 }
 
-.wrapper {
-  max-width: 650px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-section {
-  margin: 20px 0;
-}
-
+/* Styles for quotes */
 .quote {
   text-align: left; /* Left-align text within the quote box */
   margin: 20px auto; /* Center the quote box horizontally */
@@ -79,9 +81,7 @@ section {
   border: 1px solid var(--davys-gray);
   border-radius: 3px;
   position: relative;
-  width: auto; /* Allow the box to expand based on the content */
 }
-
 
 .bullet {
   width: 20px; /* Set the width of the bullet image */
@@ -89,17 +89,9 @@ section {
   background-image: url('malinois.png'); /* Path to the bullet image */
   background-size: contain; /* Use 'contain' instead of 'cover' to ensure the entire image is visible */
   background-repeat: no-repeat; /* Prevent the image from repeating */
-  display: inline-block; /* display bullet in line while setting the size */
+  display: inline-block; /* Display bullet in line while setting the size */
 }
 
-.wrapper {
-  max-width: 650px;
-  width: 66.66%; /* 2/3 of the page width */
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-/* Fonts and sizes */
 strong {
   font-weight: bold;
 }
@@ -112,5 +104,5 @@ small {
 }
 
 .comment {
-  display: inline; /* display bullet in line while setting the size */
+  display: inline; /* Display bullet in line while setting the size */
 }
