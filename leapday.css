@@ -71,8 +71,7 @@ section {
 }
 
 .quote {
-text-align: left; /* Left-align text within the quote box */
-  display: inline-block; /* Make the quote box only as wide as its content */
+  text-align: left; /* Left-align text within the quote box */
   margin: 20px auto; /* Center the quote box horizontally */
   padding: 10px;
   background-color: var(--seasalt);
@@ -80,7 +79,9 @@ text-align: left; /* Left-align text within the quote box */
   border: 1px solid var(--davys-gray);
   border-radius: 3px;
   position: relative;
+  width: auto; /* Allow the box to expand based on the content */
 }
+
 
 .bullet {
   width: 20px; /* Set the width of the bullet image */
